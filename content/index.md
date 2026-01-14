@@ -11,11 +11,15 @@ As a short-term visiting scholar in the Kidd Lab at the University of California
 
 ---
 ### Take a look for my CV
-* [[CV_Yijin_Fang.pdf|Download my CV]]
+* [[CV_Yijin_Fang.pdf]
 
 ---
 Earlier, I worked on a project of **play for learning**, in collaboration with Dr. Jinyun Lyv and under the mentorship of Prof. Stella Christie. Together, we investigated the learning mechanisms and constraints of children's play. In particular, our work focused on **how initial success and failure influence children's learning through play**. We have also studied **caregivers' beliefs toward children's play and learning**, in collaboration with Prof. Kathy Hirsh-Pasek’s team at Temple University. This work has also been extended to applied contexts in Chinese society, with particular contributions to the design of **child-friendly city** that better support children’s play and learning.
 
 ---
-![[yijin-fang.jpg]]
-
+<img 
+  src="yijin-fang.jpg" 
+  align="right" 
+  width="200" 
+  style="margin-left: 20px; border-radius: 10px; margin-bottom: 10px;" 
+/>
