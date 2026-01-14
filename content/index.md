@@ -1,5 +1,6 @@
 ---
 title: Hi, I'm Yijin Fang
+---
 <img 
   src="yijin-fang.jpg" 
   align="right" 
