@@ -2,7 +2,7 @@
 title: Hi, I'm Yijin Fang
 ---
 <img 
-  src="yijin-fang.jpg" 
+  src="yijin1.jpg" 
   align="right" 
   width="200" 
   style="margin-left: 20px; border-radius: 10px; margin-bottom: 10px;" 
