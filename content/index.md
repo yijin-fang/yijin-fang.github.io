@@ -1,7 +1,9 @@
 ---
 title: Hi, I'm Yijin Fang
 ---
-I'm a PhD candidate in the Department of Psychological and Cognitive Sciences at **Tsinghua Universsity**, working in the **Child Cognition Center** (CCC Lab) under the mentorship of **Prof. Stella Christie**. I am broadly interested in understanding when and why humans choose to explore. Currently, my research focuses on **explore-exploit decision-making**, **curiosity**, and **active learning**. 
+I'm a PhD candidate in the Department of Psychological and Cognitive Sciences at **Tsinghua Universsity**, under the mentorship of **Prof. Stella Christie**. 
+
+I am broadly interested in understanding when and why humans choose to explore. Currently, my research focuses on **explore-exploit decision-making**, **curiosity**, and **active learning**. 
 
 One central line of my work examines **how metacognitive regulation of one's knowledge state shapes explore–exploit decisions**, aiming to understand how self-regulated learning processes--such as self-assessment and self-monitoring--influence one's explore-exploit preferences. In the other project with Huiwen Alex Yang from UC Berkeley, we study **the differences in explore–exploit decisions between rural and urban children**, highlighting how growing up within distinct childhood support systems shapes exploration preferences. Another project conducted with undergraduate student Ariel Chang is to examine **how different forms of feedback (encouraging vs. reflective) regulate children's explore–exploit decisions**, extending the focus within social context in guiding exploration behavior.
 
