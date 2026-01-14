@@ -19,7 +19,6 @@ As a short-term visiting scholar in the Kidd Lab at the University of California
 
 * Check out my [[publications]]
 * Download my [CV](/CV_Yijin_Fang.pdf)
-* Move to my [google scholar] (https://scholar.google.com/citations?user=T43T5qcAAAAJ&hl=zh-CN&oi=ao)
 
 ---
 **Earlier Work:**
