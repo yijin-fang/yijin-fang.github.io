@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-type PageName = 'home' | 'publications' | 'cv' | 'messages';
+type PageName = 'home' | 'publications' | 'notes' | 'cv' | 'messages';
 
 export function SiteHeader({ active }: { active: PageName }) {
   return (
@@ -9,6 +9,7 @@ export function SiteHeader({ active }: { active: PageName }) {
         <Link className="wordmark" href="/">Yijin&apos;s Homepage</Link>
         <nav aria-label="Primary navigation">
           <Link className={active === 'publications' ? 'active' : ''} href="/publications">Publications</Link>
+          <Link className={active === 'notes' ? 'active' : ''} href="/notes">Notes</Link>
           <a className={active === 'cv' ? 'active' : ''} href="/CV_Yijin_Fang.pdf">CV</a>
         </nav>
       </div>
