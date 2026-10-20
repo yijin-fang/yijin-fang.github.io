@@ -355,6 +355,77 @@ footer p { margin: 0; }
 
 .paper-link.disabled { color: var(--muted); cursor: help; opacity: .42; }
 
+/* Notes */
+.notes-page {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 82% 12%, rgb(201 218 237 / 22%), transparent 31rem),
+    var(--paper);
+}
+
+.notes-shell { width: min(820px, calc(100% - 48px)); }
+.notes-intro { margin-bottom: 42px; }
+
+.notes-directory {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--line);
+  list-style: none;
+}
+
+.notes-directory li { border-bottom: 1px solid var(--line); }
+
+.note-index-link {
+  display: grid;
+  grid-template-columns: 122px minmax(0, 1fr) auto;
+  gap: 24px;
+  align-items: start;
+  padding: 28px 4px;
+}
+
+.note-index-link time,
+.note-article-header time {
+  padding-top: 5px;
+  color: var(--muted);
+  font-size: .72rem;
+  font-weight: 650;
+  letter-spacing: .02em;
+}
+
+.note-index-copy { display: flex; flex-direction: column; gap: 7px; }
+
+.note-index-title {
+  color: var(--ink);
+  font-size: 1.16rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.note-index-summary {
+  color: var(--muted);
+  font-size: .9rem;
+  line-height: 1.55;
+}
+
+.note-index-format {
+  padding-top: 2px;
+  color: var(--link);
+  font-size: .7rem;
+  font-weight: 650;
+  letter-spacing: .04em;
+  white-space: nowrap;
+  transition: transform 150ms ease, color 150ms ease;
+}
+
+.note-index-link:hover .note-index-title,
+.note-index-link:focus-visible .note-index-title { color: var(--accent); }
+
+.note-index-link:hover .note-index-format,
+.note-index-link:focus-visible .note-index-format {
+  color: var(--accent);
+  transform: translateX(3px);
+}
+
 /* Messages */
 .messages-page {
   min-height: 100vh;
@@ -580,6 +651,7 @@ footer p { margin: 0; }
   .message-page-intro { margin-bottom: 40px; }
   .message-page-intro h1 { font-size: 2.2rem; }
   .message-card h2 { min-height: 0; }
+  .note-index-link { grid-template-columns: 105px minmax(0, 1fr) auto; gap: 16px; }
 }
 
 @media (max-width: 480px) {
@@ -592,4 +664,7 @@ footer p { margin: 0; }
   .message-submit-row { display: block; }
   .message-submit-copy { max-width: none; margin-bottom: 12px; }
   .message-submit-row button { width: 100%; }
+  .note-index-link { grid-template-columns: 1fr auto; gap: 8px 14px; }
+  .note-index-link time { grid-column: 1 / -1; padding-top: 0; }
+  .note-index-summary { font-size: .84rem; }
 }
